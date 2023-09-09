@@ -1,0 +1,70 @@
+.video-suggestions{
+display: grid; 
+grid-template-columns: 1fr 1fr 1fr 1fr;
+column-gap: 15px;
+row-gap: 80px;
+max-width: 700px;
+}
+@media (max-width: 750px) {
+ .video-suggestions {
+  grid-template-columns: 1fr 1fr
+ }
+}
+
+@media (min-width:750px) and (max-width:999px){
+ .video-suggestions{
+  grid-template-columns: 1fr 1fr 1fr;
+ }
+}
+@media (min-width:1000px){
+ .video-suggestions{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+ }
+}
+
+
+.video-preview{
+ position: relative;
+}
+.dhada-tym,.baby-tym,.LGM-tym,.simpledev-tym,.nanna-tym,.shraddha-tym,.kushi-tym,.nandu-tym{
+ position: absolute;
+ background-color: black;
+ color: white;
+ font-size: 14px;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: 600;
+ padding: 4px 6px;
+ right: 5px;
+ bottom: 45px;
+}
+.thumbnail{
+ width: 300px;
+ margin-bottom: 5px;
+}
+.channel-picture{
+ display: grid;
+ grid-template-columns: 40px 260px;
+
+}
+.aditya{
+ width: 32px;
+ height: 32px;
+ border-radius: 16px;
+}
+.video-head{
+ font-size: 16px;
+ font-weight: 700;
+ font-family: 'Times New Roman', Times, serif;
+ margin-bottom: 5px;
+}
+.channel-name{
+ font-size: 14px;
+ font-family: 'Times New Roman', Times, serif;
+ color: rgb(96, 96, 96);
+ margin-bottom: 3px;
+}
+.video-stats{
+ font-size: 14px;
+ font-family: 'Times New Roman', Times, serif;
+ color: rgb(96, 96, 96);
+}
